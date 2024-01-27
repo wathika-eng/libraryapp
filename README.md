@@ -1,3 +1,16 @@
+[![Build and deploy Python app to Azure Web App - crudlibtest](https://github.com/wathika-eng/library/actions/workflows/main_crudlibtest.yml/badge.svg)](https://github.com/wathika-eng/library/actions/workflows/main_crudlibtest.yml)
+
+View the live website on : https://crudlibtest.azurewebsites.net/books
+
+
+[![JcaJJln.png](https://iili.io/JcaJJln.png)](https://freeimage.host/)
+[![JcaJdSs.png](https://iili.io/JcaJdSs.png)](https://freeimage.host/)
+[![JcaJHKX.png](https://iili.io/JcaJHKX.png)](https://freeimage.host/)
+[![JcaJ3HG.png](https://iili.io/JcaJ3HG.png)](https://freeimage.host/)
+[![JcaJFRf.png](https://iili.io/JcaJFRf.png)](https://freeimage.host/)
+[![JcaJKN4.png](https://iili.io/JcaJKN4.png)](https://freeimage.host/)
+
+
 Base Library System
 Overview
 The Base Library System is designed to help librarians manage books, members, and transactions efficiently. It provides functionalities for performing general CRUD operations on books and members, issuing and returning books, searching for books by name and author, and managing rent fees for book returns.
