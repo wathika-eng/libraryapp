@@ -1,0 +1,27 @@
+{% if books %}
+<div class="text-center">
+    <svg id="lens" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+    </svg>
+</div>
+    <h2>Search Results for '{{ query }}'</h2>
+    <ul>
+        {% for book in books %}
+            <li>Title: {{ book.title }}, Author: {{ book.author }}</li>
+            <li>Stock: {{ book.stock }}</li>
+            <a download="" href="{{ book.book_url }}">Download</a>
+        {% endfor %}
+    </ul>
+{% else %}
+<div class="text-center">
+<i class="bi bi-search fs-1 text-muted"></i>
+<p>No results found for '{{ query }}'.</p>
+</div>
+{% endif %}
+<button onclick="goBack()">Go Back</button>
+
+<script>
+    function goBack() {
+        window.history.back();
+    }
+</script>
