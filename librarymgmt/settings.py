@@ -46,8 +46,8 @@ INSTALLED_APPS = [
     "crispy_bootstrap5",
     "rest_framework",
     # https://pypi.org/project/django-cloudinary-storage/
-    "cloudinary_storage",
-    "cloudinary",
+    # "cloudinary_storage",
+    # "cloudinary",
     # 'django_truncate',
 ]
 
@@ -145,7 +145,7 @@ USE_TZ = True
 
 MEDIA_URL = "/media/"  # or any prefix you choose
 
-DEFAULT_FILE_STORAGE = "cloudinary_storage.storage.RawMediaCloudinaryStorage"
+# DEFAULT_FILE_STORAGE = "cloudinary_storage.storage.RawMediaCloudinaryStorage"
 STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 STATIC_URL = "/static/"

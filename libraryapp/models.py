@@ -1,6 +1,7 @@
 from django.db import models
 from django.template.defaultfilters import slugify
-from cloudinary_storage.storage import RawMediaCloudinaryStorage
+
+# from cloudinary_storage.storage import RawMediaCloudinaryStorage
 
 # Create your models here.
 

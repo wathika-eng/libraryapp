@@ -7,6 +7,9 @@ books/
 .vscode
 db.sqlite3
 .env
+lib/
+lib
+
 
 
 venv/
